@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_proc_transpose",
+  "source_file": "utl-transpose-table-creating-column-names-from-input-table-rownames-sas-sql-r-pyhon-multi-language.sas",
+  "source_blob_sha": "9db376cc5730e467742763551c97f7103df5fed4",
+  "source_commit": "17abb5929fd5e94998050b00415487efee39dda0",
+  "notes": "SAS solution #1: builds sd1.have from the repo's inline cards4 (COL1/COL2 rows) and runs the upstream PROC TRANSPOSE (id cols; var row1-row2) verbatim; only edit is libname sd1 d:/sd1 -> WORK (in autoexec) plus a proc print to surface the result. Output matches the repo's documented ROW1 1000/2022, ROW2 50/2024."
+}
