@@ -1,0 +1,19 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: Library SD1 uses 1 concatenated paths.
+NOTE: DATA sd1.have
+
+NOTE: Processing inline DATALINES (2 lines)
+
+NOTE: Read 2 rows from DATALINES.
+NOTE: Wrote sd1.have (2 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TRANSPOSE data=sd1.have
+
+NOTE: Created 2 rows.
+NOTE: Output written to /tmp/work/r_79c31777077440ac84fdd62bd935e559/work/2ed9b5a4-2811-4704-82f1-e3d7d74a16af/want.avro.
+NOTE: PROC PRINT data=want
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-23T11:46:49Z",
+  "_captured_run_id": "r_460d07875c7d40b885ee857e303d0bd8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table want created.",
+    "NOTE: PROC SQL statement used.",
+    "NOTE: PROC PRINT completed: 2 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

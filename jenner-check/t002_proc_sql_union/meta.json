@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_proc_sql_union",
+  "source_file": "utl-transpose-table-creating-column-names-from-input-table-rownames-sas-sql-r-pyhon-multi-language.sas",
+  "source_blob_sha": "9db376cc5730e467742763551c97f7103df5fed4",
+  "source_commit": "17abb5929fd5e94998050b00415487efee39dda0",
+  "notes": "SAS solution #2: same inline cards4 data; runs the upstream pure-PROC-SQL transpose (sum(case when cols=..) over UNION ALL) verbatim; only edit is libname sd1 d:/sd1 -> WORK (in autoexec) plus a proc print. Output matches the repo's documented ROW1 1000/2022, ROW2 50/2024."
+}

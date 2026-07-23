@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-23T11:46:49Z",
+  "_captured_run_id": "r_79c31777077440ac84fdd62bd935e559",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC TRANSPOSE data=sd1.have",
+    "NOTE: Created 2 rows.",
+    "NOTE: PROC PRINT completed: 2 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
